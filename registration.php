@@ -6,7 +6,8 @@ require_once('config.php');
 <html lang="en">
 
 <?php
-    ini_set("session.cookie_httponly",True);
+    ini_set('session.cookie_httponly', 1);
+    ini_set('session.cookie_secure', 1);
     session_start();
 ?>
 
